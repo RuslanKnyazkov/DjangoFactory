@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "default.html" %}
+{% block title %}{{ flatpage.title}}{%endblock title%}
+
+
+{% block content %}
+<h3>{{ flatpage.content}}</h3>
+<h3>{{ flatpage.content}}</h3>
+{% endblock content %}
